@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <p id="result"></p>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <p id="result5"></p>
+
+
+
+    <script>
+        function sum(data1, data2) {
+            return data1 + data2;
+        }
+
+        function Calculate(pr1, pr2) {
+            return sum(pr1, pr2) * sum(pr1, pr2);
+        }
+
+        function printScreen(par) {
+            alert(par);
+        }
+
+        printScreen(Calculate(4, 5));
+        printScreen(Calculate(3, 3));
+        printScreen(Calculate(3, 1));
+        printScreen(Calculate(4, 7));
+        printScreen(Calculate(4, 4));
+        printScreen(Calculate(2, 2));
+    </script>
+</body>
+
+</html>
